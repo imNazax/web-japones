@@ -1,0 +1,535 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Kuroneko Japanese - Aprende Japonés y Prepara el JLPT</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Aprende japonés desde cero con Kuroneko Japanese. Cursos dinámicos y preparación para el examen oficial JLPT con materiales personalizados y clases interactivas.">
+<meta name="keywords" content="aprender japones, cursos de japones, preparar jlpt, examen jlpt, clases de japones, kuroneko japanese, idioma japones">
+<meta name="author" content="Kuroneko Japanese">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kuronekojapanese.com/">
+<meta property="og:title" content="Kuroneko Japanese - Aprende Japonés y Prepara el JLPT">
+<meta property="og:description" content="Aprende japonés desde cero de manera estructurada y dinámica. Preparación especializada para exámenes oficiales JLPT.">
+<meta property="og:image" content="7-Fixed-PNG.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://kuronekojapanese.com/">
+<meta property="twitter:title" content="Kuroneko Japanese - Aprende Japonés y Prepara el JLPT">
+<meta property="twitter:description" content="Aprende japonés desde cero de manera estructurada y dinámica. Preparación especializada para exámenes oficiales JLPT.">
+<meta property="twitter:image" content="7-Fixed-PNG.png">
+
+<link rel="icon" type="image/png" href="7-Fixed-PNG.png">
+
+<!-- Google Fonts Preconnect and Optimization -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- Tailwind CSS Setup -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-surface-variant": "#5d3f3b",
+                      "on-tertiary": "#ffffff",
+                      "surface-container": "#eeeeee",
+                      "surface-container-lowest": "#ffffff",
+                      "on-primary-fixed-variant": "#930006",
+                      "slate-gray": "#4A4A4A",
+                      "secondary-fixed": "#ffe170",
+                      "surface-bright": "#f9f9f9",
+                      "secondary-container": "#fdd400",
+                      "on-tertiary-fixed-variant": "#004d61",
+                      "secondary": "#705d00",
+                      "surface": "#f9f9f9",
+                      "on-surface": "#1a1c1c",
+                      "on-secondary-fixed": "#221b00",
+                      "on-tertiary-container": "#fafdff",
+                      "outline-variant": "#e7bdb7",
+                      "primary-container": "#e3231f",
+                      "on-secondary-container": "#6f5c00",
+                      "inverse-surface": "#2f3131",
+                      "surface-dim": "#dadada",
+                      "error-container": "#ffdad6",
+                      "on-secondary-fixed-variant": "#544600",
+                      "inverse-on-surface": "#f0f1f1",
+                      "on-primary-container": "#fffbff",
+                      "faint-border": "#E5E5E5",
+                      "error": "#ba1a1a",
+                      "on-primary-fixed": "#410001",
+                      "surface-container-high": "#e8e8e8",
+                      "background": "#f9f9f9",
+                      "tertiary-fixed-dim": "#68d4f9",
+                      "outline": "#926f6a",
+                      "secondary-fixed-dim": "#e9c400",
+                      "tertiary-fixed": "#b8eaff",
+                      "primary-fixed": "#ffdad5",
+                      "ink-black": "#1A1A1A",
+                      "on-error": "#ffffff",
+                      "on-tertiary-fixed": "#001f28",
+                      "tertiary-container": "#007f9d",
+                      "surface-tint": "#c0000b",
+                      "inverse-primary": "#ffb4aa",
+                      "primary-fixed-dim": "#ffb4aa",
+                      "surface-container-low": "#f3f3f3",
+                      "tertiary": "#00647d",
+                      "on-primary": "#ffffff",
+                      "paper-white": "#FAFAFA",
+                      "primary": "#bc000b",
+                      "surface-variant": "#e2e2e2",
+                      "on-secondary": "#ffffff",
+                      "on-error-container": "#93000a",
+                      "on-background": "#1a1c1c",
+                      "surface-container-highest": "#e2e2e2"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "base": "8px",
+                      "section-gap": "80px",
+                      "gutter": "24px",
+                      "container-max": "1200px",
+                      "margin-mobile": "16px"
+              },
+              "fontFamily": {
+                      "display-lg": ["Hanken Grotesk"],
+                      "headline-lg": ["Hanken Grotesk"],
+                      "title-md": ["Hanken Grotesk"],
+                      "headline-lg-mobile": ["Hanken Grotesk"],
+                      "body-lg": ["Plus Jakarta Sans"],
+                      "body-md": ["Plus Jakarta Sans"],
+                      "label-sm": ["Hanken Grotesk"]
+              },
+              "fontSize": {
+                      "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                      "title-md": ["20px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                      "headline-lg-mobile": ["24px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                      "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                      "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                      "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}]
+              }
+            }
+          }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .symbol-filled {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-paper-white text-on-surface font-body-md min-h-screen flex flex-col">
+<!-- TopNavBar (Shared Component) -->
+<header class="fixed top-0 w-full z-50 bg-surface/90 dark:bg-inverse-surface/90 backdrop-blur-md shadow-sm border-b border-faint-border dark:border-slate-gray transition-all duration-300 ease-in-out">
+<div class="flex justify-between items-center h-20 px-gutter max-w-container-max mx-auto">
+<div class="font-display-lg md:font-display-lg text-headline-lg-mobile md:text-title-md text-primary tracking-tighter">Kuroneko Japanese</div>
+<!-- Desktop Nav -->
+<nav class="hidden md:flex items-center gap-6">
+<a class="font-display-lg text-title-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#cursos">Cursos</a>
+<a class="font-display-lg text-title-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#metodologia">Metodología</a>
+<a class="font-display-lg text-title-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#sobre-mi">Sobre Mí</a>
+<a class="font-display-lg text-title-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#contacto">Contacto</a>
+</nav>
+<a class="hidden md:inline-flex items-center justify-center bg-primary text-on-primary font-display-lg text-title-md uppercase px-6 py-3 rounded-lg hover:bg-surface-tint transition-colors" href="#contacto">
+                Inscribirse
+            </a>
+<!-- Mobile Menu Toggle -->
+<button aria-label="Toggle Menu" class="md:hidden text-on-surface" id="mobile-menu-btn">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</header>
+<!-- Mobile Navigation Menu (Hidden by default) -->
+<div class="fixed inset-0 bg-surface z-40 hidden flex-col pt-24 px-margin-mobile" id="mobile-menu">
+<a class="font-display-lg text-headline-lg-mobile text-on-surface py-4 border-b border-faint-border" href="#cursos" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Cursos</a>
+<a class="font-display-lg text-headline-lg-mobile text-on-surface py-4 border-b border-faint-border" href="#metodologia" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Metodología</a>
+<a class="font-display-lg text-headline-lg-mobile text-on-surface py-4 border-b border-faint-border" href="#sobre-mi" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Sobre Mí</a>
+<a class="font-display-lg text-headline-lg-mobile text-primary font-bold py-4" href="#contacto" onclick="document.getElementById('mobile-menu').classList.add('hidden')">Inscribirse</a>
+</div>
+<!-- Main Content -->
+<main class="flex-grow pt-24">
+<!-- Section 1: Hero -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-gutter py-section-gap flex flex-col md:flex-row items-center gap-12">
+<div class="md:w-1/2 flex flex-col gap-6">
+<h1 class="font-display-lg text-headline-lg-mobile md:text-display-lg text-on-surface">Aprende <span class="text-primary">japonés</span> <span class="relative inline-block">desde cero<span class="absolute bottom-0 left-0 w-full h-2 bg-secondary-container -z-10 transform -skew-x-12 translate-y-1"></span></span>, <span class="text-primary">paso a paso</span></h1>
+<p class="font-body-lg text-body-lg text-slate-gray">
+                    Formación paso a paso, desde los fundamentos hasta la preparación para la certificación oficial.
+                </p>
+<div>
+<a class="inline-flex items-center justify-center bg-primary text-on-primary font-display-lg text-title-md uppercase px-8 py-4 rounded-lg hover:bg-surface-tint shadow-[0_4px_20px_rgba(188,0,11,0.2)] transition-all hover:-translate-y-1" href="#contacto">
+                        Quiero inscribirme
+                    </a>
+</div>
+</div>
+<div class="md:w-1/2 relative">
+<div class="absolute inset-0 bg-secondary-container/20 rounded-full blur-3xl transform translate-x-1/4 translate-y-1/4 -z-10"></div>
+<img draggable="false" oncontextmenu="return false;" alt="Japanese learning concept" class="select-none pointer-events-none rounded-xl shadow-lg border border-faint-border object-cover w-full h-[400px] md:h-[500px]" data-alt="A modern, high-quality photograph depicting Japanese culture and learning. The scene features a minimalist workspace with a traditional Japanese tea cup, an open notebook with beautifully written Kanji characters, and a sleek modern pen. The lighting is soft and natural, illuminating the scene brightly. The color palette emphasizes clean whites, deep blacks of the ink, and subtle accents of primary red and secondary yellow, aligning with a premium, academic light-mode aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVPSg8woSzxF1VHwU3qsS5oxPfYqOAaID7XXGFDI42J6DYt5cnVjQXArO5F0Bs6_8BYmguo6LqTdkVSd6zvRfvjYyxOYlbRYwJJkvQrsrhcYIB9fAb_eG91IcoeDv6sub-7jVAPJE-Vzp-RX2i0QUm-GCWEG_qxO8fzQng-frBcG0myM27yFsqi0giu0JJk3S8dZ4a-3RgXT7tuY_PdJ_4aNge3oSNL-JGZBMIeL93Abc0nNCTE33prPa5s_XT66PmUXyBcT706TUpQkk">
+</div>
+</section>
+<!-- Section 2: What is Kuroneko? -->
+<section class="bg-surface-container-lowest py-section-gap border-y border-faint-border" id="metodologia">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter text-center max-w-3xl">
+<h2 class="font-display-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-6">¿Qué es Kuroneko Japanese?</h2>
+<p class="font-body-lg text-body-lg text-slate-gray mb-8">
+                    Kuroneko Japanese es un espacio dedicado a la enseñanza estructurada y rigurosa del idioma japonés. Nuestro enfoque principal es guiarte de manera sistemática a través de la gramática, vocabulario y kanji necesarios no solo para comunicarte, sino para dominar el Examen de Dominio del Idioma Japonés (JLPT).
+                </p>
+<div class="flex justify-center gap-4">
+<span class="inline-flex items-center gap-2 px-4 py-2 border border-slate-gray/20 rounded-full text-slate-gray font-label-sm">
+<span class="material-symbols-outlined text-primary text-sm">school</span> Aprendizaje Estructurado
+                    </span>
+<span class="inline-flex items-center gap-2 px-4 py-2 border border-slate-gray/20 rounded-full text-slate-gray font-label-sm">
+<span class="material-symbols-outlined text-primary text-sm">verified</span> Preparación JLPT
+                    </span>
+</div>
+</div>
+</section>
+<!-- Section 3: Why Choose Me? -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-gutter py-section-gap">
+<h2 class="font-display-lg text-headline-lg-mobile md:text-headline-lg text-on-surface text-center mb-12">¿Por qué elegirme?</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest border border-faint-border rounded-xl p-6 shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.08)] transition-shadow duration-300">
+<div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary symbol-filled">monitoring</span>
+</div>
+<h3 class="font-display-lg text-title-md text-on-surface mb-2">Seguimiento personalizado</h3>
+<p class="font-body-md text-slate-gray">Monitoreo constante de tu progreso para asegurar que domines cada concepto antes de avanzar.</p>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest border border-faint-border rounded-xl p-6 shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.08)] transition-shadow duration-300">
+<div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary symbol-filled">my_location</span>
+</div>
+<h3 class="font-display-lg text-title-md text-on-surface mb-2">Clases enfocadas</h3>
+<p class="font-body-md text-slate-gray">Sesiones estructuradas sin distracciones, maximizando el tiempo de estudio efectivo.</p>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest border border-faint-border rounded-xl p-6 shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.08)] transition-shadow duration-300 lg:border-b-2 lg:border-b-primary">
+<div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary symbol-filled">workspace_premium</span>
+</div>
+<h3 class="font-display-lg text-title-md text-on-surface mb-2">Preparación para certificación</h3>
+<p class="font-body-md text-slate-gray">Material y metodología alineados específicamente con los estándares del examen JLPT.</p>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface-container-lowest border border-faint-border rounded-xl p-6 shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.08)] transition-shadow duration-300">
+<div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary symbol-filled">support_agent</span>
+</div>
+<h3 class="font-display-lg text-title-md text-on-surface mb-2">Atención directa</h3>
+<p class="font-body-md text-slate-gray">Resolución de dudas de forma clara y directa, facilitando un aprendizaje fluido.</p>
+</div>
+<!-- Card 5 -->
+<div class="bg-surface-container-lowest border border-faint-border rounded-xl p-6 shadow-[0_4px_20px_rgba(0,0,0,0.04)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.08)] transition-shadow duration-300 md:col-span-2 lg:col-span-1">
+<div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary symbol-filled">devices</span>
+</div>
+<h3 class="font-display-lg text-title-md text-on-surface mb-2">Donde quieras, cuando quieras</h3>
+<p class="font-body-md text-slate-gray">Flexibilidad para adaptar el estudio a tu ritmo y estilo de vida moderno.</p>
+</div>
+</div>
+</section>
+<!-- Section 4: About Me -->
+<section class="bg-surface py-section-gap border-y border-faint-border" id="sobre-mi">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-gutter flex flex-col md:flex-row-reverse items-center gap-12">
+<div class="md:w-1/2 flex flex-col gap-6">
+<h2 class="font-display-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Sobre mí</h2>
+<h3 class="font-display-lg text-title-md text-primary">Hola! soy Pablo&nbsp;(●´ω｀●)</h3>
+<p class="font-body-lg text-body-lg text-slate-gray">
+                        Con más de 500 estudiantes guiados con éxito a través de los desafíos del idioma japonés, mi objetivo es desmitificar una lengua compleja ofreciendo estructura y claridad.
+                    </p>
+<p class="font-body-md text-slate-gray">
+                        Creo firmemente en un enfoque académico que respete la profundidad del idioma, pero que sea accesible. Mi metodología combina el rigor tradicional con técnicas de instrucción modernas para asegurar que no solo memorices, sino que verdaderamente comprendas y apliques el japonés.
+                    </p>
+</div>
+<div class="md:w-1/2 relative">
+<div class="w-full aspect-[4/5] md:w-[400px] bg-surface-container-lowest border-2 border-faint-border p-4 rounded-xl shadow-sm mx-auto transform -rotate-2">
+<img draggable="false" oncontextmenu="return false;" alt="Pablo, Japanese Teacher" class="select-none pointer-events-none w-full h-full object-cover rounded-lg" data-alt="A professional portrait of a male teacher, conveying a warm yet academic and prestigious tone. He is looking directly at the camera with a subtle smile. The background is a clean, bright, minimalist classroom setting with soft, high-key lighting. The color palette focuses on crisp whites, deep blacks of his modern attire, and a faint hint of primary red in the background, fitting a light-mode modern aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_A_QZE1qBzXYVWXpSwgkUYBJCZm6E-G4RxglPV1g2EVjTEkLmXD5C43GCf67lHMxDB9v-gJEP0zx7p2LoUoZnpkk_bROGsvfxf2VmqMAnXXZiMfuy1aptXvgbHJdxKTBPhdpi3Sg5f0h61voWo9-H7Xp1yc0V1R-sDmrXVfVbX_hijftkAVaeiQaZ6qEpGLSd6VOwOe466otsH85DLXgoI7zaC4AHr294EEBLHVGE1fJa4wPyU0wKfgnUYzKmGrNAw_TzFs12Cf41j8o">
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Courses/Curriculum -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-gutter py-section-gap" id="cursos">
+<div class="text-center mb-12">
+<h2 class="font-display-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mb-4">Plan de estudios</h2>
+<p class="font-body-lg text-slate-gray max-w-2xl mx-auto">Un currículo diseñado metódicamente para llevarte desde cero hasta la certificación JLPT N5 y más allá.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Level I -->
+<div class="relative bg-surface-container-lowest border border-faint-border rounded-xl p-8 shadow-[0_4px_20px_rgba(0,0,0,0.04)]">
+<div class="absolute top-0 right-0 -mt-3 -mr-3 bg-surface-variant text-slate-gray font-label-sm uppercase px-3 py-1 rounded-full border border-faint-border border-slate-gray/20 border-outline-variant">
+                        NIVEL 1</div>
+<div class="text-4xl text-slate-gray mb-4 font-display-lg opacity-20">I</div>
+<h3 class="font-display-lg text-title-md text-on-surface mb-4">Introducción</h3>
+<ul class="space-y-3 font-body-md text-slate-gray">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-sm mt-1">play_arrow</span>
+                            Introducción al idioma
+                        </li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-sm mt-1">play_arrow</span>
+                            Sistemas de escritura (Hiragana y Katakana)
+                        </li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-sm mt-1">play_arrow</span>
+                            Fonética y pronunciación básica
+                        </li>
+</ul>
+</div>
+<!-- Level II -->
+<div class="relative bg-surface-container-lowest border border-faint-border border-b-2 border-b-primary rounded-xl p-8 shadow-[0_4px_20px_rgba(0,0,0,0.04)] transform md:-translate-y-4">
+<div class="absolute top-0 right-0 -mt-3 -mr-3 bg-primary text-on-primary font-label-sm uppercase px-3 py-1 rounded-full border border-primary">
+                        NIVEL 2</div>
+<div class="text-4xl text-primary mb-4 font-display-lg opacity-20">II</div>
+<h3 class="font-display-lg text-title-md text-on-surface mb-4">Fundamentos & Estructura</h3>
+<ul class="space-y-3 font-body-md text-slate-gray">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-sm mt-1">play_arrow</span>
+                            Gramática I N5</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-sm mt-1">play_arrow</span>
+                            Gramática II N5
+                        </li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-sm mt-1">play_arrow</span>
+                            Introducción a Kanji N5
+                        </li>
+</ul>
+</div>
+<!-- Level III -->
+<div class="relative bg-surface-container-lowest border border-faint-border rounded-xl p-8 shadow-[0_4px_20px_rgba(0,0,0,0.04)]" style="border-bottom: 2px solid rgb(212, 175, 55);">
+<div class="absolute top-0 right-0 -mt-3 -mr-3 font-label-sm uppercase px-3 py-1 rounded-full border border-faint-border" style="background-color: rgb(212, 175, 55); color: rgb(255, 255, 255); border-color: rgb(184, 134, 11);">
+                        NIVEL 3</div>
+<div class="text-4xl text-secondary-container mb-4 font-display-lg opacity-20">III</div>
+<h3 class="font-display-lg text-title-md text-on-surface mb-4">Certificación</h3>
+<ul class="space-y-3 font-body-md text-slate-gray">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-sm mt-1">play_arrow</span>
+                            Simulacros de examen
+                        </li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-sm mt-1">play_arrow</span>
+                            Estrategias de comprensión lectora
+                        </li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-sm mt-1">play_arrow</span>
+                            Preparación intensiva JLPT N5
+                        </li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Section 6: Final CTA -->
+<section class="bg-surface-container py-section-gap mt-12" id="contacto">
+<div class="max-w-3xl mx-auto px-margin-mobile md:px-gutter text-center">
+<h2 class="font-display-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mb-6">¿Cómo me inscribo?</h2>
+<p class="font-body-lg text-slate-gray mb-8">
+                    El proceso de inscripción es directo. Contáctame a través de Instagram para evaluar tu nivel actual, discutir tus objetivos y asegurar tu lugar en la próxima cohorte de estudiantes.
+                </p>
+<a class="inline-flex items-center gap-3 bg-primary text-on-primary font-display-lg text-title-md uppercase px-8 py-4 rounded-lg hover:bg-surface-tint shadow-[0_4px_20px_rgba(188,0,11,0.2)] transition-all hover:-translate-y-1" href="https://www.instagram.com/kuronekojapanese/" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined">photo_camera</span>
+                    Inscribirme por Instagram
+                </a>
+</div>
+</section>
+</main>
+<!-- Footer (Shared Component) -->
+<footer class="w-full py-section-gap bg-surface-container-lowest dark:bg-inverse-surface border-t border-faint-border flat no shadows mt-auto">
+<div class="flex flex-col md:flex-row justify-between items-center px-gutter max-w-container-max mx-auto gap-base">
+<div class="font-display-lg text-title-md text-primary mb-4 md:mb-0">Kuroneko Japanese</div>
+<nav class="flex flex-wrap justify-center gap-6 mb-4 md:mb-0">
+<button id="btn-terminos" class="font-body-md text-body-md text-slate-gray hover:text-primary transition-colors hover:underline opacity-80 hover:opacity-100">Términos y Condiciones</button>
+<button id="btn-privacidad" class="font-body-md text-body-md text-slate-gray hover:text-primary transition-colors hover:underline opacity-80 hover:opacity-100">Privacidad</button>
+<a class="font-body-md text-body-md text-primary underline hover:underline opacity-80 hover:opacity-100" href="https://www.instagram.com/kuronekojapanese/">Contacto</a>
+</nav>
+<div class="font-body-md text-body-md text-slate-gray text-center md:text-right">
+                © 2026 Kuroneko Japanese. <div class="">Todos los derechos reservados.
+            </div></div>
+</div>
+</footer>
+<!-- Modals Container -->
+<div id="modal-container" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/50 backdrop-blur-sm p-4 opacity-0 transition-opacity duration-300">
+    <div id="modal-content" class="bg-surface-container-lowest border border-faint-border rounded-xl shadow-2xl max-w-2xl w-full max-h-[90vh] flex flex-col transform scale-95 transition-transform duration-300">
+        <div class="bg-surface-container-lowest border-b border-faint-border p-4 flex justify-between items-center rounded-t-xl z-10 shrink-0">
+            <h2 id="modal-title" class="font-display-lg text-title-md text-on-surface">Título</h2>
+            <button id="close-modal-btn" class="text-slate-gray hover:text-primary transition-colors p-1 rounded-md hover:bg-surface-variant">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+        </div>
+        <div id="modal-body" class="p-6 overflow-y-auto text-slate-gray font-body-md">
+            <!-- Content injected here -->
+        </div>
+    </div>
+</div>
+
+<!-- Hidden Content for Modals -->
+<div id="content-terminos" class="hidden">
+    <p class="mb-4 text-sm text-slate-gray/80">Última actualización: Junio de 2026</p>
+    <p class="mb-6">Al inscribirse en un curso de Kuroneko Japanese, el estudiante acepta los presentes términos y condiciones.</p>
+    
+    <h3 class="font-display-lg text-title-md text-on-surface mb-3 mt-6">Naturaleza de los cursos</h3>
+    <p class="mb-4">Los cursos ofrecidos tienen fines exclusivamente educativos y están orientados al aprendizaje de la lengua japonesa.</p>
+
+    <h3 class="font-display-lg text-title-md text-on-surface mb-3 mt-6">Vacantes</h3>
+    <p class="mb-4">Las vacantes son limitadas y podrán cerrarse una vez alcanzado el cupo establecido para cada curso.</p>
+
+    <h3 class="font-display-lg text-title-md text-on-surface mb-3 mt-6">Horarios y fechas</h3>
+    <p class="mb-4">Kuroneko Japanese se reserva el derecho de modificar horarios, fechas de inicio o cronogramas cuando sea necesario. Cualquier modificación será comunicada con antelación razonable a los estudiantes.</p>
+
+    <h3 class="font-display-lg text-title-md text-on-surface mb-3 mt-6">Material de estudio</h3>
+    <p class="mb-4">Todo el material proporcionado durante los cursos es para uso personal del estudiante. No está permitida su distribución, reproducción o comercialización sin autorización expresa.</p>
+
+    <h3 class="font-display-lg text-title-md text-on-surface mb-3 mt-6">Pagos</h3>
+    <p class="mb-4">Las inscripciones se abonan mediante los métodos de pago habilitados por Kuroneko Japanese.</p>
+    <p class="mb-4">Los cursos podrán ofrecerse de manera individual por nivel o mediante paquetes promocionales cuando así se indique.</p>
+
+    <h3 class="font-display-lg text-title-md text-on-surface mb-3 mt-6">Reembolsos</h3>
+    <p class="mb-4">Los estudiantes podrán solicitar un reembolso hasta la finalización de la segunda clase correspondiente al curso, taller o nivel contratado.</p>
+    <p class="mb-4">Transcurrido dicho plazo, no se realizarán devoluciones, salvo situaciones excepcionales evaluadas por Kuroneko Japanese.</p>
+
+    <h3 class="font-display-lg text-title-md text-on-surface mb-3 mt-6">Aceptación</h3>
+    <p class="mb-4">La inscripción a cualquier curso implica la aceptación de los presentes términos y condiciones.</p>
+
+    <h3 class="font-display-lg text-title-md text-on-surface mb-3 mt-6">Menores de edad</h3>
+    <p class="mb-4">Los estudiantes menores de edad podrán participar en los cursos ofrecidos por Kuroneko Japanese.</p> 
+    <p class="mb-4">Transcurrido dicho plazo, no se realizarán devoluciones, salvo situaciones excepcionales evaluadas por Kuroneko Japanese. La inscripción deberá realizarse con el conocimiento y consentimiento de sus padres, madres o tutores legales.</p>
+    <p class="mb-4"></p>Kuroneko Japanese podrá solicitar la intervención o confirmación de un responsable adulto cuando lo considere necesario para la correcta gestión administrativa o académica del estudiante.</p> 
+</div>
+
+<div id="content-privacidad" class="hidden">
+    <p class="mb-4 text-sm text-slate-gray/80">Última actualización: Junio de 2026</p>
+    <p class="mb-6">En Kuroneko Japanese valoramos y respetamos la privacidad de nuestros estudiantes y visitantes. La información recopilada tiene como único propósito brindar información sobre los cursos, gestionar inscripciones y ofrecer una mejor experiencia educativa.</p>
+
+    <h3 class="font-display-lg text-title-md text-on-surface mb-3 mt-6">Información recopilada</h3>
+    <p class="mb-2">Podemos solicitar los siguientes datos:</p>
+    <ul class="list-disc pl-6 mb-4 space-y-1">
+        <li>Nombre y apellido.</li>
+        <li>Edad.</li>
+        <li>País y ciudad de residencia.</li>
+        <li>Nombre de usuario de Instagram.</li>
+        <li>Nombre de usuario de Discord.</li>
+        <li>Correo electrónico.</li>
+        <li>Información relacionada con los objetivos de aprendizaje y expectativas del estudiante.</li>
+    </ul>
+
+    <h3 class="font-display-lg text-title-md text-on-surface mb-3 mt-6">Uso de la información</h3>
+    <p class="mb-2">La información recopilada se utiliza exclusivamente para:</p>
+    <ul class="list-disc pl-6 mb-4 space-y-1">
+        <li>Responder consultas.</li>
+        <li>Gestionar inscripciones.</li>
+        <li>Organizar grupos y actividades académicas.</li>
+        <li>Mantener comunicación con los estudiantes.</li>
+        <li>Adaptar la enseñanza a los objetivos de cada alumno.</li>
+    </ul>
+
+    <h3 class="font-display-lg text-title-md text-on-surface mb-3 mt-6">Compartición de datos</h3>
+    <p class="mb-4">Kuroneko Japanese no vende, alquila ni comparte información personal con terceros, salvo cuando exista una obligación legal que así lo requiera.</p>
+
+    <h3 class="font-display-lg text-title-md text-on-surface mb-3 mt-6">Seguridad</h3>
+    <p class="mb-4">Se adoptan medidas razonables para proteger la información proporcionada por los estudiantes. Sin embargo, ningún sistema de almacenamiento o transmisión de datos puede garantizar una seguridad absoluta.</p>
+
+    <h3 class="font-display-lg text-title-md text-on-surface mb-3 mt-6">Contacto</h3>
+    <p class="mb-4">Para consultas relacionadas con esta política, los usuarios pueden comunicarse a través de <a href="mailto:kuronekojapanesejp@gmail.com" class="text-primary hover:underline">kuronekojapanesejp@gmail.com</a></p>
+</div>
+
+<!-- Interactive Scripts -->
+<script>
+        // Modal Logic
+        const modalContainer = document.getElementById('modal-container');
+        const modalContent = document.getElementById('modal-content');
+        const modalTitle = document.getElementById('modal-title');
+        const modalBody = document.getElementById('modal-body');
+        const closeModalBtn = document.getElementById('close-modal-btn');
+
+        const btnTerminos = document.getElementById('btn-terminos');
+        const btnPrivacidad = document.getElementById('btn-privacidad');
+
+        const contentTerminos = document.getElementById('content-terminos');
+        const contentPrivacidad = document.getElementById('content-privacidad');
+
+        function openModal(title, contentElement) {
+            modalTitle.textContent = title;
+            modalBody.innerHTML = contentElement.innerHTML;
+            
+            modalContainer.classList.remove('hidden');
+            modalContainer.classList.add('flex');
+            
+            setTimeout(() => {
+                modalContainer.classList.remove('opacity-0');
+                modalContent.classList.remove('scale-95');
+                modalContent.classList.add('scale-100');
+            }, 10);
+            
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            modalContainer.classList.add('opacity-0');
+            modalContent.classList.remove('scale-100');
+            modalContent.classList.add('scale-95');
+            
+            setTimeout(() => {
+                modalContainer.classList.add('hidden');
+                modalContainer.classList.remove('flex');
+                document.body.style.overflow = 'auto';
+            }, 300);
+        }
+
+        btnTerminos.addEventListener('click', (e) => {
+            e.preventDefault();
+            openModal('Términos y Condiciones', contentTerminos);
+        });
+
+        btnPrivacidad.addEventListener('click', (e) => {
+            e.preventDefault();
+            openModal('Política de Privacidad', contentPrivacidad);
+        });
+
+        closeModalBtn.addEventListener('click', closeModal);
+
+        modalContainer.addEventListener('click', (e) => {
+            if (e.target === modalContainer) {
+                closeModal();
+            }
+        });
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            mobileMenu.classList.toggle('flex');
+            
+            // Toggle icon
+            const icon = mobileMenuBtn.querySelector('span');
+            if (mobileMenu.classList.contains('hidden')) {
+                icon.textContent = 'menu';
+                document.body.style.overflow = 'auto';
+            } else {
+                icon.textContent = 'close';
+                document.body.style.overflow = 'hidden';
+            }
+        });
+    </script>
+</body></html>
